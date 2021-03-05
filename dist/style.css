@@ -1,0 +1,91 @@
+/* Add a black background color to the top navigation */
+body{
+  background-color: rgb(29, 29, 29);
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(165, 165, 165);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    border-bottom: 5px solid rgb(0, 153, 255);
+    color: white;
+  }
+
+  .paragraph{
+    color: wheat;
+    margin:20px;
+  }
+  
+  .floating {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    width:  90%;
+    height: 400px; /* height of container */
+    object-fit: cover;
+    border: 3px solid wheat;
+  }
+  .spaghetti{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      width: 800px; /* width of container */
+      height: 100px; /* height of container */
+      object-fit: cover;
+      border: 5px solid black;
+  
+  }
+  .spaghettiTitle{
+    position: relative;
+    text-align: center;
+    color: wheat;
+    font-size: xx-large;
+  }
+
+  .aboutTitle{
+    text-align: center;
+    font-family: 'Beth Ellen';
+    color:white;
+    font-size: xx-large;
+  }
+  .workerPic{
+    float:left;
+    display:block;
+    border: transparent;
+    border-radius: 20%;
+    margin: 10px;
+    width: 50%;
+  }
+  .aboutPara{
+    margin: 20px;
+    color: white;
+  }
+  .menuPara{
+    text-align: center;
+    color:tomato;
+    margin: 20px;
+  }
